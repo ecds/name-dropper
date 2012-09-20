@@ -43,6 +43,8 @@ class SpotlightClient(object):
 
         if support is not None:
             data['support'] = support
+        elif self.default_support:
+            data['support'] = self.default_support
 
         if types is not None:
             # if types is a list, convert to comma-delimited string

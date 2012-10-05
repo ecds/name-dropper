@@ -29,3 +29,6 @@ pip-log.txt
 
 #Mac stuff
 *.DS_Store
+
+oxygen/build.xml
+oxygen/nbproject/

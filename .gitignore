@@ -32,3 +32,4 @@ pip-log.txt
 
 oxygen/build.xml
 oxygen/nbproject/
+oxygen/manifest.mf

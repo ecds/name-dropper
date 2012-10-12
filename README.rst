@@ -54,15 +54,15 @@ In TEI documents, names will be tagged with ``name``; the ``type`` attribute wil
 
 * personal names::
 
-    <name type="person" ref="http://viaf.org/viaf/39398205">Michael Longley</persname>
+    <name type="person" ref="http://viaf.org/viaf/39398205">Michael Longley</name>
 
 * corporate or organizational name::
 
-   <name type="org" ref="http://viaf.org/viaf/129928623">Arts Council of Northern Ireland</corpname>
+   <name type="org" ref="http://viaf.org/viaf/129928623">Arts Council of Northern Ireland</name>
 
 * geographic names::
 
-   <name type="place" ref="http://viaf.org/viaf/179000908">Belfast</geogname>
+   <name type="place" ref="http://viaf.org/viaf/179000908">Belfast</name>
 
 Note that the ``ref`` value could also be a DBpedia resource or other appropriate URI.
 

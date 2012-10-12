@@ -50,7 +50,7 @@ In EAD documents, names will be tagged with ``persname``, ``orgname``, or ``corp
    <geogname source="viaf" authfilenumber="179000908">Belfast</geogname>
 
 
-In TEI documents, names will be tagged with ``name``; the ``type`` attribute will be used to differentiate the type of name, and the ``ref`` attribute will be used to link to an authority record, for example::
+In TEI documents, names will be tagged with ``name``; the ``type`` attribute will be used to differentiate the type of name, and the ``ref`` attribute will be used to link to an authority record, for example:
 
 * personal names::
 

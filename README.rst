@@ -8,6 +8,7 @@ Developed as part of the `Digital Scholarship Commons`_ project `Networking the 
 .. _Digital Scholarship Commons: http://disc.library.emory.edu/
 .. _Networking the Belfast Group: http://web.library.emory.edu/disc/projects/networking-belfast-group
 
+.. image:: https://travis-ci.org/emory-libraries-disc/name-dropper.png?branch=develop
 
 Components
 ==========

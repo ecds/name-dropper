@@ -1,0 +1,18 @@
+<!DOCTYPE plugin SYSTEM "../plugin.dtd">
+<plugin
+    name="NameDropper"
+    description="Looks up names in name authority"
+    version="1.0.0"
+    vendor="Emory University"
+    class="edu.emory.library.oxygen_plugin.NameDropper.NameDropperPlugin">
+    <runtime>
+        <library name="NameDropper.jar"/>
+    </runtime>
+    i<!-- main plugin -->
+    <extension type="selectionProcessor"
+     class="edu.emory.library.oxygen_plugin.NameDropper.NameDropperPluginExtension"
+     keyboardShortcut="ctrl shift N"/>
+    <!-- menu plugin -->
+    <extension type="WorkspaceAccess"
+     class="edu.emory.library.oxygen_plugin.NameDropper.NameDropperMenuPluginExtension"/> 
+</plugin>

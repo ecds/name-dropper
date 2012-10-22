@@ -25,3 +25,13 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+/oxygen/nbproject/private/
+
+#Mac stuff
+*.DS_Store
+
+oxygen/build.xml
+oxygen/nbproject/
+oxygen/manifest.mf
+
+namedropper-py/test-results/

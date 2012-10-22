@@ -9,4 +9,4 @@ install:
 # not running coverage or building docs and mock is pre-installed, so dev reqs probably aren't needed
 # - "pip install -r pip-dev-req.txt --use-mirrors"
 # command to run tests, e.g. python setup.py test
-script: python ./test/test_all.py
+script: nosetests

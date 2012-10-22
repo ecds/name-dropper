@@ -35,3 +35,5 @@ oxygen/nbproject/
 oxygen/manifest.mf
 
 namedropper-py/test-results/
+namedropper-py/coverage.xml
+namedropper-py/nosetests.xml

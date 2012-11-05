@@ -20,13 +20,11 @@ Currently **name-dropper** consists of two distinct code bases:
 * The **namedropper-py** directory contains a Python module with code for interacting with
   `DBpedia Spotlight`_ and `VIAF`_ (Virtual International Authority File), and
   a command line script for identifying names in text or xml (EAD or TEI) content using
-  those services. See namedropper-py `README <./namedropper-py/README.rst>`_ for
-  more details.
+  those services.
 
 * The **oxygen** directory contains Java code for a plugin for the `Oxygen XML editor`_
   to expedite the process of tagging names and linking them to authoritative identifiers
-  in EAD or TEI XML documents.  See Oxygen plugin `README <./oxygen/README.rst>`_ for
-  more details.
+  in EAD or TEI XML documents.
 
 .. _DBpedia Spotlight: http://spotlight.dbpedia.org/
 .. _VIAf: http://viaf.org

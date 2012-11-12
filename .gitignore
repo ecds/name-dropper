@@ -36,6 +36,9 @@ oxygen/manifest.mf
 oxygen/result.txt
 oxygen/result.xml
 
+#java class files
+*.class
+
 namedropper-py/test-results/
 namedropper-py/coverage.xml
 namedropper-py/nosetests.xml

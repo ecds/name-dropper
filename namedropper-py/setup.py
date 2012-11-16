@@ -43,13 +43,29 @@ CLASSIFIERS = [
     'Topic :: Utilities',
 ]
 
+# NOTE: a separate requirements file is needed for readthedocs.org
+# If you add something here, you must also add it to pip-install-req.txt
 install_requires = [
     'requests',
     'eulxml',
     'rdflib',
     'SPARQLWrapper',
-    'feedparser'
+    'feedparser',
+    'unicodecsv'
 ]
+
+extras_require = {
+    # development dependencies for running unit tests and generating docs
+    'dev': [
+        'mock',
+        'sphinx',
+        'coverage',
+        'nose'
+    ]
+}
+
+#pip install package[extra]
+
 if sys.version_info < (2, 7):
     install_requires.append("argparse==1.1")
 
@@ -62,6 +78,7 @@ setup(
     license='Apache License, Version 2.0',
     packages=find_packages(),
     install_requires=install_requires,
+    extras_require=extras_require,
     description='A collection of python utilities and scripts for identifying named entities in text and XML',
     long_description=LONG_DESCRIPTION,
     classifiers=CLASSIFIERS,

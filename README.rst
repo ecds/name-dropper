@@ -15,22 +15,25 @@ Developed as part of the `Digital Scholarship Commons`_ project `Networking the 
 Components
 ==========
 
-Currently **name-dropper** consists of two distinct code bases:
+Currently **name-dropper** consists of two distinct code bases, which are stored in separate git repositories
+and linked here as submodules:
 
-* The **namedropper-py** directory contains a Python module with code for interacting with
+* `namedropper-py`_ contains a Python module with code for interacting with
   `DBpedia Spotlight`_ and `VIAF`_ (Virtual International Authority File), and
   a command line script for identifying names in text or xml (EAD or TEI) content using
   those services.
 
-* The **oxygen** directory contains Java code for a plugin for the `Oxygen XML editor`_
+* `namedropper-oxygen`_ contains Java code for a plugin for the `Oxygen XML editor`_
   to expedite the process of tagging names and linking them to authoritative identifiers
   in EAD or TEI XML documents.
 
+.. _namedropper-py: https://github.com/emory-libraries-disc/namedropper-py
 .. _DBpedia Spotlight: http://spotlight.dbpedia.org/
 .. _VIAf: http://viaf.org
 .. _Oxygen XML editor: http://oxygenxml.com/
+.. _namedropper-oxigin: https://github.com/emory-libraries-disc/namedropper-oxygen
 
-See **README** files in each subdirectory for more details about dependencies and installation.
+See **README** files in the individual modules for more details about dependencies and installation.
 
 XML conventions
 ===============

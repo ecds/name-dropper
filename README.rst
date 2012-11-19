@@ -8,9 +8,6 @@ Developed as part of the `Digital Scholarship Commons`_ project `Networking the 
 .. _Digital Scholarship Commons: http://disc.library.emory.edu/
 .. _Networking the Belfast Group: http://web.library.emory.edu/disc/projects/networking-belfast-group
 
-.. image:: https://travis-ci.org/emory-libraries-disc/name-dropper.png?branch=develop
-  :alt: current build status
-  :target: https://travis-ci.org/emory-libraries-disc/name-dropper
 
 Components
 ==========
@@ -23,15 +20,23 @@ and linked here as submodules:
   a command line script for identifying names in text or xml (EAD or TEI) content using
   those services.
 
+  .. image:: https://travis-ci.org/emory-libraries-disc/namedropper-py.png?branch=develop
+    :alt: current build status for namedropper-py
+    :target: https://travis-ci.org/emory-libraries-disc/namedropper-py
+
 * `namedropper-oxygen`_ contains Java code for a plugin for the `Oxygen XML editor`_
   to expedite the process of tagging names and linking them to authoritative identifiers
   in EAD or TEI XML documents.
+
+  .. image:: https://travis-ci.org/emory-libraries-disc/namedropper-oxygen.png?branch=develop
+    :alt: current build status for namedropper-oxygen
+    :target: https://travis-ci.org/emory-libraries-disc/namedropper-oxygen
 
 .. _namedropper-py: https://github.com/emory-libraries-disc/namedropper-py
 .. _DBpedia Spotlight: http://spotlight.dbpedia.org/
 .. _VIAf: http://viaf.org
 .. _Oxygen XML editor: http://oxygenxml.com/
-.. _namedropper-oxigin: https://github.com/emory-libraries-disc/namedropper-oxygen
+.. _namedropper-oxygen: https://github.com/emory-libraries-disc/namedropper-oxygen
 
 See **README** files in the individual modules for more details about dependencies and installation.
 

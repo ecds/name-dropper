@@ -1,0 +1,3 @@
+[submodule "namedropper-oxygen"]
+	path = namedropper-oxygen
+	url = git://github.com/emory-libraries-disc/namedropper-oxygen.git

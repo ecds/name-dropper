@@ -1,0 +1,6 @@
+[submodule "namedropper-oxygen"]
+	path = namedropper-oxygen
+	url = git://github.com/emory-libraries-disc/namedropper-oxygen.git
+[submodule "namedropper-py"]
+	path = namedropper-py
+	url = git://github.com/emory-libraries-disc/namedropper-py.git
